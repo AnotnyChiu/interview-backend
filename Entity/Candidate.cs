@@ -14,5 +14,6 @@ namespace Entity
         public string Name { get; set; }
         [Column("gender")]
         public char Gender { get; set; }
+        public InterviewStage CurrentStage { get; set; }
     }
 }
