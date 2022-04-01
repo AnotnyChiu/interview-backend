@@ -7,13 +7,11 @@ namespace Entity
     [Table("candidate")]
     public class Candidate
     {
-        [Key]
-        [Column("id")]
+        [Key]   
         public int Id { get; set; }
-        [Column("name")]
         public string Name { get; set; }
-        [Column("gender")]
         public char Gender { get; set; }
+        public JobPosition JobPosition { get; set; }
         public InterviewStage CurrentStage { get; set; }
     }
 }

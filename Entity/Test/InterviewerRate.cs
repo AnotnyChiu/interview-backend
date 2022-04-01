@@ -14,5 +14,6 @@ namespace Entity.Test
         public int Id { get; set; }
         public Candidate Candidate { get; set; }
         public Interviewer Interviewer { get; set; }
+        // 面試題目
     }
 }

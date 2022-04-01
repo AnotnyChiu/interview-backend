@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Entity
 {
-    class JobPosition
+    public class JobPosition
     {
+        public int Id { get; set; }
+        public string Title { get; set; }
+        public string Workplace { get; set; }
+        public bool CurrentOpened { get; set; }
     }
 }

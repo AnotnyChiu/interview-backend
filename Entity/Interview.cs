@@ -18,5 +18,9 @@ namespace Entity
         public Interviewer Interviewer { get; set; }
         [Column("interview_time")]
         public DateTimeOffset InterviewTime { get; set; }
+        [Column("passed")]
+        public bool Passed { get; set; }
+        public string Status { get; set; }
+
     }
 }

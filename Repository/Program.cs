@@ -54,5 +54,10 @@ namespace Repository
                 await repo.Remove(new Candidate { Id = 4 });
             }
         }
+
+        static async void TestInterviewRepository() 
+        {
+
+        }
     }
 }
